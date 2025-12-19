@@ -37,6 +37,7 @@ namespace UniversityMvc.Controllers
 
             return View(customers);
         }
+        hjgfjgfhfn
         public IActionResult InsertTest()
         {
             using (SqlConnection con = new SqlConnection(_connStr))
@@ -44,7 +45,7 @@ namespace UniversityMvc.Controllers
                 con.Open();
 
                 string sql = @"
-            INSERT INTO tblCustomer (IdNumber, FirstName, LastName)
+            INSERT INTO tblCustomer (IdNumber, FirstName, LastNafffffffffffffffvdf me)
             VALUES ('999999999', N'בדיקה', N'MVC');
         ";
 
